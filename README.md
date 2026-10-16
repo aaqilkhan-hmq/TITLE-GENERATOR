@@ -16,3 +16,4 @@ Reports are stored in `data/reports`. Uploaded photos are stored in `data/upload
 
 To add another title generator later, create a module in `lib/generators` and add it to the list in `lib/generators/registry.ts`. It shows up as the next title, with its name in brackets.
 # TITLE-GENERATOR
+# TITLE-GENERATOR
