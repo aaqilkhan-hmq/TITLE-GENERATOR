@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f4f3ef;
+  --panel: #eceae4;
+  --card: #ffffff;
+  --ink: #1c1c1a;
+  --muted: #6f6d66;
+  --line: #e3e0d8;
+  --accent: #1c1c1a;
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), "Segoe UI", sans-serif;
+}
+
+button, input, textarea { font: inherit; }
+input, textarea { color: inherit; }
+
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #d5d2ca; border-radius: 99px; }
